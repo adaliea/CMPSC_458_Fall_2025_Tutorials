@@ -30,6 +30,7 @@ Clone or download the code to your work directory: `$home = path/to/files`
     - `cd $home`
     - `mkdir Build`
     - `cd Build`
+    - `cmake ..`
     - Run `make -j4`
         - It takes some time
         - You may replace the 4 with the number of cores on your machine
