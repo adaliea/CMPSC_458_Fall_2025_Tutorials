@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.0)
-project(CMPSC458_Tutorials)
+cmake_minimum_required(VERSION 3.30)
+project(CMPSC458_Fall_2025_Tutorials)
 
 option(GLFW_BUILD_DOCS OFF)
 option(GLFW_BUILD_EXAMPLES OFF)
@@ -10,7 +10,7 @@ option(ASSIMP_BUILD_GLTF_IMPORTER OFF)
 option(ASSIMP_BUILD_ASSIMP_TOOLS OFF)
 option(ASSIMP_BUILD_SAMPLES OFF)
 option(ASSIMP_BUILD_TESTS OFF)
-OPTION( ASSIMP_BUILD_ZLIB ON )
+OPTION(ASSIMP_BUILD_ZLIB ON )
 add_subdirectory(Vendor/assimp)
 
 if(MSVC)
